@@ -10,13 +10,13 @@ define(function(require, exports, module) {
         deparam: function(time) {
             var format = /^time\|(\d+)$/,
                 match = format.exec(time),
-                time = null;
+                res = null;
 
             if (match) {
-                time = new Date(match[1] * 1000);
+                res = new Date(match[1] * 1000);
             }
 
-            return time;
+            return res;
         }
     };
 });
