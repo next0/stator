@@ -1,0 +1,31 @@
+{
+  "name": "stator",
+  "version": "0.0.1",
+  "homepage": "https://github.com/next0/stator",
+  "description": "backbone state lib",
+  "main": "src/stator.js",
+  "keywords": [
+    "backbone",
+    "state"
+  ],
+  "authors": [
+    "next0"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.14",
+    "jquery": "~2.1.1",
+    "jquery-bbq-deparam": "~1.2.1",
+    "lodash": "~2.4.1",
+    "backbone": "~1.1.2",
+    "backbone-nested-model": "~2.0.0"
+  }
+}
